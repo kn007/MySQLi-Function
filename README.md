@@ -1,6 +1,9 @@
-##The Undefined MySQLi Functions
+##The Undefined MySQLi Functions Supported
 
-[kn007's blog](http://kn007.net) 
+- mysqli_field_flags
+- mysqli_field_len
+- mysqli_field_name
+- mysqli_field_type
 
 ##Description
 
@@ -14,3 +17,7 @@ Fix the MySQL extension To the MySQLi extension call to undefined functions fata
 
 - MySQL 4.1.3+
 - PHP 5.0.0+
+
+##About
+
+[kn007's blog](http://kn007.net) 
