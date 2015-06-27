@@ -18,6 +18,10 @@ Fix the MySQL extension To the MySQLi extension call to undefined functions fata
 - MySQL 4.1.3+
 - PHP 5.0.0+
 
+##Test
+
+Testing in PHP 5.6.9, MySQL 5.6.25.
+
 ##About
 
 [kn007's blog](http://kn007.net) 
