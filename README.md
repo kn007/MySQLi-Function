@@ -7,7 +7,7 @@
 
 ##Description
 
-Fix the MySQL extension To the MySQLi extension call to undefined functions fatal error.
+Fixed the MySQL extension To the MySQLi extension call to undefined functions fatal error.
 
 ##Example
 
