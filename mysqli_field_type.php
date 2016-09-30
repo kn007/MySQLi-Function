@@ -1,5 +1,6 @@
 <?php
 
+if (!function_exists("mysqli_field_type")) {
 function mysqli_field_type($result, $field_offset) {
     static $types;
     $type_id = mysqli_fetch_field_direct($result, $field_offset)->type;
@@ -9,6 +10,7 @@ function mysqli_field_type($result, $field_offset) {
         foreach ($constants['mysqli'] as $c => $n) if (preg_match('/^MYSQLI_TYPE_(.*)/', $c, $m)) $types[$n] = $m[1];
     }
      return array_key_exists($type_id, $types) ? $types[$type_id] : NULL;
+}
 }
 
 ?>
